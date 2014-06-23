@@ -1,4 +1,6 @@
-class hero
+class hero: public melee, public staff
+//allows us to make use of variables/functions from other classes
+//for instance, we can use the damage stat from the melee class in the attack function of hero
 {
 public:
   int hitpoints;
@@ -13,6 +15,4 @@ public:
   void rest();
   void run();
   void consume();
-  
-  
 };
