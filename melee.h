@@ -7,6 +7,6 @@ public:
   int crit;
   int speedMultiply;
   
-  viod attack();
+  void attack();
   void specAttack();
-}
+};
