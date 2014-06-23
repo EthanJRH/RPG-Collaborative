@@ -1,4 +1,5 @@
-class monster {
+class monster 
+{
 public:
  string name;
  int hitpoints;
