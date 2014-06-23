@@ -6,9 +6,11 @@ public:
   int hitpoints;
   int mana;
   int speed;
-  int attack;
+  //int attack;
+  //don't need an attack on the hero as long as we include the weapon
   int magic;
-  int crit;
+  //int crit;
+  //same deal here
   bool male;
   void attack();
   void ability();
